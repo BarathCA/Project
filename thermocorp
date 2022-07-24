@@ -1,7 +1,6 @@
-#!/bib/bash
-echo"$1"
-if [$1 is Bharath]; then
-echo "Computer science"
-else
-echo"Electronics"
-fi
+#!/bin/bash
+ANIMALS=”$1 $2 $3”
+for ANIMAL in $ANIMALS
+  do
+    echo $ANIMAL
+done
